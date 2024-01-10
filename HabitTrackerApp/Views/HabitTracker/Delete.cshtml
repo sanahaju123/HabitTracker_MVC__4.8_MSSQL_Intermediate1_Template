@@ -12,27 +12,11 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Exercise)
+            @Html.DisplayNameFor(model => model.HabitName)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Exercise)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Sets)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Sets)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Reps)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Reps)
+            @Html.DisplayFor(model => model.Notes)
         </dd>
 
         <dt>
@@ -40,9 +24,8 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Date)
+            @Html.DisplayFor(model => model.IsCompleted)
         </dd>
-
     </dl>
 
     @using (Html.BeginForm()) {
